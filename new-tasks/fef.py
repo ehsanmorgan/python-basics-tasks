@@ -69,14 +69,13 @@ print(numbers)
 
 '''
 
-class Bank:
-
+class users:
       def __init__ (self, name ,age ,adresse):
             self.name=name
             self.age=age
             self.adresse=adresse
-            self.balance=0
-            print(f'welcome    : {name}')
+            
+            print(f'welcome {name}')
             
             
                
@@ -86,34 +85,74 @@ class Bank:
             print(f'age       : {self.age}')
             print(f'adresse: {self.adresse}')
 
+
+
+
+
+class Bank(users):
+
+      def __init__(self,name,age,adresse):
+            super().__init__(name,age,adresse)
+            self.balance=0
+            
+
       def deposite (self,amount):
             self.balance +=amount
             print(f'deposite succses = {amount} your curent balance = {self.balance}')
+
+            
+
+
       def withdrow (self,amount):
+            if amount > self.balance :
+                  print('your curent balance is not enouth')
+
+                  return
+
+
             self.balance -=amount
             print(f'withdrow succse ={amount}   your curent balance = {self.balance}')
+
+
+
+            
       def check_balance(self):
+            self.show_info()
             print(f'your curent balance = {self.balance}')
 
 b=Bank('ehsan',27,'germany')
 b.show_info()
-b.deposite(1000)
-b.withdrow(213)
-b.deposite(657)
-b.withdrow(123)
+
 b.deposite(534)
+b.deposite(657)
+b.deposite(1000)
+
+b.withdrow(213)
+b.withdrow(123)
+b.withdrow(2000)
+
+
+
+
+
 
 b.check_balance()
 
 
 
 
+class test :
+
+      total=0
+
+      def user (self,name):
+            print(f'welckome {name}')
 
 
 
-
-
-
+c=test()
+c.user('ehsan')
+print (c.total)
 
 
 
