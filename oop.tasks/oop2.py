@@ -18,14 +18,14 @@ class calc :
       def __init__(self,name):
             print(f'welcome {name}')
       def sum(self ,x,y):
-            print(x+y)
+            return(x+y)
 
       def mull(self,x,y):
-            print(x*y)
+            return(x*y)
 
 cl=calc('ehsan')
-cl.sum(10,20)
-cl.mull(10,20)
+print (cl.sum(10,20))
+print (cl.mull(10,20))
 
 
 #Inherit from the Calc class , now remove the
@@ -41,12 +41,12 @@ class scicalc (calc) :
             
 
       def power(self,x,y):
-            print(x-y)
+            return(x-y)
       
 s=scicalc(calc)
-s.sum(254,232)
-s.mull(65,45)
-s.power(432,654)
+print (s.sum(254,232))
+print(s.mull(65,45))
+print (s.power(432,654))
 
 
 
