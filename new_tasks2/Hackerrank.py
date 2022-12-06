@@ -33,15 +33,7 @@ for n in range(n+1):
 
 
 
-s = input()
-dupple=()
-s.split()
 
-for s in dupple:
-      dupple=s.split()
-      dupple.append(s)
-print(len(s))
-print(f'{s}')
 
 
 
