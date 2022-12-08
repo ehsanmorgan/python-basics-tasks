@@ -34,3 +34,15 @@ print(m)
 
 num=[True if x%2 ==0  else False for x in range(1,101) ]
 print(num)
+
+
+
+
+
+
+
+names3=['aslan','ehsan','amjad']
+new_name2=[]
+for x in names3:
+      new_name2.append(x.upper())
+print(new_name2)
