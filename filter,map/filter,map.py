@@ -28,5 +28,5 @@ print(list(names3))
 
 
 
-no_duple={'my','my', 'name', 'name', 'is', 'is', 'is', 'ehsan', 'ehsan', 'ehsan'}
-print(no_duple)
+sett={'my','my', 'name', 'name', 'is', 'is', 'is', 'ehsan', 'ehsan', 'ehsan'}
+print(sett)
