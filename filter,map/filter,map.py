@@ -15,15 +15,15 @@ print(names1)
 
 def ehsan(y):
       return y.lower()
-names4=filter(ehsan,names)
-print(list(names4))
+names3=filter(ehsan,names)
+print(list(names3))
 
 
 
 def mytitle(x):
       return x.title()
-names3=map(mytitle,names)
-print(list(names3))
+names4=map(mytitle,names)
+print(list(names4))
 
 
 
