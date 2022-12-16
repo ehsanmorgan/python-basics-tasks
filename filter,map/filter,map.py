@@ -1,7 +1,7 @@
 
 names=('ehsan','ahmad','hasn','mahmoud')
-n=[x.title() for x in names ]
-print(n)
+title=[x.title() for x in names ]
+print(title)
 
 
 
@@ -23,7 +23,7 @@ print(list(names3))
 def mytitle(x):
       return x.title()
 names4=map(mytitle,names)
-print(list(names4))
+print(list(namestitle))
 
 
 
