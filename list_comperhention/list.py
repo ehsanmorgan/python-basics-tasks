@@ -7,7 +7,7 @@ a=[x**2 for x in numbers]
 print(a)
 
 
-w=[x**2 for  x in [10,20,30,40] ]
+w=[x**2 for  x in [10,20,30,50] ]
 print(w)
 
 
