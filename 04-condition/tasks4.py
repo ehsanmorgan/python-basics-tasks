@@ -98,7 +98,7 @@ YES
 #1 check to see if 2 in this list or not
 
 
-x=(2,4,6,8,10)
+x=(2,4,6,8,13)
 
 if 4 in x: print('4 in x')
 
