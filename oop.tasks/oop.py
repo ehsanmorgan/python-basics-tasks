@@ -35,7 +35,7 @@ class calc :
             print(x*y)
 
 cl=calc('ehsan')
-cl.sum(10,20)
+cl.sum(10,30)
 cl.mull(10,20)
 
 
