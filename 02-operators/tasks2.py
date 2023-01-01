@@ -26,16 +26,16 @@ python operators tasks
 '''
 
 #4 Create a variable x with value of 10
-x=10
+x=11
 
 #5  increase x value by 15 using assignmet operator
 
-x=10
+x=11
 x
-10
+11
 x += 5
 x
-15
+16
 
 #6  divide x value by 5 using assignmet operator
 
