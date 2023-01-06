@@ -12,7 +12,7 @@ while x < 11:
 
 numbers = (0,10)
 
-for x in range(0,11):
+for x in range(0,12):
        print (x)
        
 #3 Stop the loop if the number = 5
