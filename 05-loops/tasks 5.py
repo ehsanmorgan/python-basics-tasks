@@ -25,7 +25,7 @@ for x in range(0,11):
 
 #4 Skip the 5 iteration from print
 
-for x in range(0,11):
+for x in range(0,12):
       if x ==5:
             continue
       print (x)
